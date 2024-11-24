@@ -7,12 +7,12 @@ CREATE DATABASE Books;
 
 use Books;
 
-CREATE TABLE Books(
-    Id int Key Primary Identity(1,1),
-    Title nvarchar(50),
-    Description nvarchar(100),
-    Author nvarchar(50)
-)
+CREATE TABLE Books (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Title NVARCHAR(50),
+    Description NVARCHAR(100),
+    Author NVARCHAR(50)
+);
 
 2. Modificar la conexion en el archivo Web.config segun el servidor del Sql Server entra por Autenticacion de Windows.
 
