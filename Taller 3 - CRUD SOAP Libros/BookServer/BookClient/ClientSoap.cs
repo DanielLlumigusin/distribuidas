@@ -68,6 +68,27 @@ namespace BookClient
             }
         }
 
+        //Metodo para crear un libro
+
+        public async Task AgregarLibroAsync(Libros libro)
+        {
+            using (ServiceBookClient client = new ServiceBookClient())
+            {
+                try
+                {
+                    await client.AddBookAsync(new Book
+                    {
+                        Title = libro.Title,
+                        Description = libro.Description,
+                        Author = libro.Author
+                    });
+                }catch(Exception ex)
+                {
+                    Console.WriteLine($"Error al agregar el libro: {ex.Message}");
+                }
+            }
+        }
+
         // Método para editar un libro
         public async Task EditarLibroAsync(Libros libro)
         {

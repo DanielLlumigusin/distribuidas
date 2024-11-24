@@ -51,6 +51,24 @@ class Program
                     break;
 
                 case "3":
+                    //Agregar un libro
+                    Console.WriteLine("Ingrese un Titulo");
+                    string titulo = Console.ReadLine();
+                    Console.WriteLine("Ingrese una Descripcion");
+                    string descripcion = Console.ReadLine();
+                    Console.WriteLine("Ingrese el Autor");
+                    string author = Console.ReadLine();
+                    var nuevoLibro = new Libros
+                    {
+                        Title = titulo,
+                        Description = descripcion,
+                        Author = author
+                    };
+
+                    await client.AgregarLibroAsync(nuevoLibro);
+                    break;
+
+                case "4":
                     // Editar un libro
                     Console.Write("Ingrese el ID del libro a editar: ");
                     if (int.TryParse(Console.ReadLine(), out int idEditar))
@@ -78,7 +96,7 @@ class Program
                     }
                     break;
 
-                case "4":
+                case "5":
                     // Eliminar un libro
                     Console.Write("Ingrese el ID del libro a eliminar: ");
                     if (int.TryParse(Console.ReadLine(), out int idEliminar))
@@ -91,7 +109,7 @@ class Program
                     }
                     break;
 
-                case "5":
+                case "6":
                     Console.WriteLine("Gracias por probar nuestro microservicio SOAP del grupo 5 <3");
                     Environment.Exit(0);
                     break;
@@ -110,9 +128,10 @@ class Program
         Console.WriteLine("Seleccione una opción:");
         Console.WriteLine("1. Buscar todos los libros");
         Console.WriteLine("2. Buscar un libro por ID");
-        Console.WriteLine("3. Editar un libro");
-        Console.WriteLine("4. Eliminar un libro");
-        Console.WriteLine("5. Salir");
+        Console.WriteLine("3. Agregar Libro");
+        Console.WriteLine("4. Editar un libro");
+        Console.WriteLine("5. Eliminar un libro");
+        Console.WriteLine("6. Salir");
         Console.Write("Opción: ");
         return Console.ReadLine();
     }
