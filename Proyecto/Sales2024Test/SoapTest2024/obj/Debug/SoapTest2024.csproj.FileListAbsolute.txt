@@ -1,0 +1,15 @@
+C:\Users\Owner\source\repos\Sales2024Test\SoapTest2024\bin\SoapTest2024.dll.config
+C:\Users\Owner\source\repos\Sales2024Test\SoapTest2024\bin\SoapTest2024.dll
+C:\Users\Owner\source\repos\Sales2024Test\SoapTest2024\bin\SoapTest2024.pdb
+C:\Users\Owner\source\repos\Sales2024Test\SoapTest2024\bin\DAL.dll
+C:\Users\Owner\source\repos\Sales2024Test\SoapTest2024\bin\EntityFramework.dll
+C:\Users\Owner\source\repos\Sales2024Test\SoapTest2024\bin\DAL.pdb
+C:\Users\Owner\source\repos\Sales2024Test\SoapTest2024\bin\DAL.dll.config
+C:\Users\Owner\source\repos\Sales2024Test\SoapTest2024\bin\EntityFramework.xml
+C:\Users\Owner\source\repos\Sales2024Test\SoapTest2024\obj\Debug\SoapTest2024.csproj.AssemblyReference.cache
+C:\Users\Owner\source\repos\Sales2024Test\SoapTest2024\obj\Debug\SoapTest2024.csproj.CoreCompileInputs.cache
+C:\Users\Owner\source\repos\Sales2024Test\SoapTest2024\obj\Debug\SoapTest.B3A5DA08.Up2Date
+C:\Users\Owner\source\repos\Sales2024Test\SoapTest2024\obj\Debug\SoapTest2024.dll
+C:\Users\Owner\source\repos\Sales2024Test\SoapTest2024\obj\Debug\SoapTest2024.pdb
+C:\Users\Owner\source\repos\Sales2024Test\SoapTest2024\bin\EntityFramework.SqlServer.dll
+C:\Users\Owner\source\repos\Sales2024Test\SoapTest2024\bin\EntityFramework.SqlServer.xml
