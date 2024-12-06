@@ -8,3 +8,13 @@ C:\Users\Owner\source\repos\Sales2024Test\ClientTest\obj\Debug\ClientTest.csproj
 C:\Users\Owner\source\repos\Sales2024Test\ClientTest\obj\Debug\ClientTest.csproj.Up2Date
 C:\Users\Owner\source\repos\Sales2024Test\ClientTest\obj\Debug\ClientTest.exe
 C:\Users\Owner\source\repos\Sales2024Test\ClientTest\obj\Debug\ClientTest.pdb
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Sales2024Test\ClientTest\bin\Debug\ClientTest.exe.config
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Sales2024Test\ClientTest\bin\Debug\ClientTest.exe
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Sales2024Test\ClientTest\bin\Debug\ClientTest.pdb
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Sales2024Test\ClientTest\bin\Debug\Entities.dll
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Sales2024Test\ClientTest\bin\Debug\Entities.pdb
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Sales2024Test\ClientTest\obj\Debug\ClientTest.csproj.AssemblyReference.cache
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Sales2024Test\ClientTest\obj\Debug\ClientTest.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Sales2024Test\ClientTest\obj\Debug\ClientTest.csproj.Up2Date
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Sales2024Test\ClientTest\obj\Debug\ClientTest.exe
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Sales2024Test\ClientTest\obj\Debug\ClientTest.pdb
