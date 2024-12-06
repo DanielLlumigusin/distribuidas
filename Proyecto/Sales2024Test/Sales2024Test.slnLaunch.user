@@ -1,19 +1,6 @@
 [
   {
     "Name": "New Profile",
-    "Projects": [
-      {
-        "Path": "SoapTest2024\\SoapTest2024.csproj",
-        "Action": "Start"
-      },
-      {
-        "Path": "SoapTest2024Category\\SoapTest2024Category.csproj",
-        "Action": "Start"
-      },
-      {
-        "Path": "ClientTest\\ClientTest.csproj",
-        "Action": "Start"
-      }
-    ]
+    "Projects": []
   }
 ]
