@@ -1,0 +1,40 @@
+﻿@model List<Entities.Product>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Lista de Productos</title>
+</head>
+<body>
+    <h1>Lista de productos</h1>
+    @if (ViewBag.Message != null)
+    {
+        <p>@ViewBag.Message</p>
+    }
+    else
+    {
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Precio Unitario</th>
+                    <th>Unidades en existencias</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var product in Model)
+                {
+                    <tr>
+                        <td>@Html.ActionLink(product.ProductID.ToString(), "Details", new {id = product.ProductID}) </td>
+                        <td>@product.ProductName</td>
+                        <td>@product.UnitPrice</td>
+                        <td>@product.UnitsInStock</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</body>
+</html>

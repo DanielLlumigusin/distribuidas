@@ -13,10 +13,10 @@ using System.Runtime.InteropServices;
 
 namespace NWindProxyService
 {
-    public class Proxy : IService
+    public class Proxy : IProductService
     {
         string BaseAddress = "http://localhost:50508";
-    }
+    
 
     public async Task<T> SendPost<T, PostData>(string requestURI, PostData data) {
             T Result = default(T);
@@ -36,7 +36,7 @@ namespace NWindProxyService
                         new StringContent(JSONData.ToString(),
                         Encoding.UTF8, "application/json"));
 
-                    var ResultWebAPI = await Response.Content.ReadAsStringAsync();
+                    var ResultWebAPI = await Reponse.Content.ReadAsStringAsync();
                     Result = JsonConvert.DeserializeObject<T>(ResultWebAPI);
                 }
                 catch (Exception ex) { }
@@ -129,7 +129,19 @@ namespace NWindProxyService
         { 
             Category Result = null;
             Task.Run(async() => Result = await CreateCategoryAsync(newCategory)).Wait();
-            return Result;
+            return Result; 
+        }
+
+        public async Task<bool> DeleteProductAsync(int id)
+        {
+            return await SendGet<bool>($"/api/nwind/DeleteProduct/{id}");
+        }
+
+        public  bool Delete(int id)
+        {
+            var result = false;
+            Task.Run(async () => result = await DeleteProductAsync(id)).Wait();
+            return result;
         }
     }
 }
