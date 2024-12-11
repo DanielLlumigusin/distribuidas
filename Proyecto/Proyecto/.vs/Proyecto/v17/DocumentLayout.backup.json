@@ -3,40 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E0E67E0C-AACB-41CA-AE93-E2BC8A44ED17}|NWindProxyService\\NWindProxyService.csproj|C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\nwindproxyservice\\proxytoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0E67E0C-AACB-41CA-AE93-E2BC8A44ED17}|NWindProxyService\\NWindProxyService.csproj|solutionrelative:nwindproxyservice\\proxytoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85AF85AB-6905-49EF-ABB0-2A47EC42CAE9}|DAL\\DAL.csproj|c:\\users\\owner\\documents\\github\\distribuidas\\proyecto\\proyecto\\dal\\seguridadmodel.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{85AF85AB-6905-49EF-ABB0-2A47EC42CAE9}|DAL\\DAL.csproj|solutionrelative:dal\\seguridadmodel.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85AF85AB-6905-49EF-ABB0-2A47EC42CAE9}|DAL\\DAL.csproj|c:\\users\\owner\\documents\\github\\distribuidas\\proyecto\\proyecto\\dal\\seguridadmodel.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{85AF85AB-6905-49EF-ABB0-2A47EC42CAE9}|DAL\\DAL.csproj|solutionrelative:dal\\seguridadmodel.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85AF85AB-6905-49EF-ABB0-2A47EC42CAE9}|DAL\\DAL.csproj|c:\\users\\owner\\documents\\github\\distribuidas\\proyecto\\proyecto\\dal\\seguridadmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{85AF85AB-6905-49EF-ABB0-2A47EC42CAE9}|DAL\\DAL.csproj|solutionrelative:dal\\seguridadmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4109F97A-355C-47B8-A97A-CB10026347D4}|SLC\\SLC.csproj|c:\\users\\owner\\documents\\github\\distribuidas\\proyecto\\proyecto\\slc\\isesionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4109F97A-355C-47B8-A97A-CB10026347D4}|SLC\\SLC.csproj|solutionrelative:slc\\isesionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0E67E0C-AACB-41CA-AE93-E2BC8A44ED17}|NWindProxyService\\NWindProxyService.csproj|c:\\users\\owner\\documents\\github\\distribuidas\\proyecto\\proyecto\\nwindproxyservice\\proxyusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0E67E0C-AACB-41CA-AE93-E2BC8A44ED17}|NWindProxyService\\NWindProxyService.csproj|solutionrelative:nwindproxyservice\\proxyusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E0E67E0C-AACB-41CA-AE93-E2BC8A44ED17}|NWindProxyService\\NWindProxyService.csproj|C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\nwindproxyservice\\proxyauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0E67E0C-AACB-41CA-AE93-E2BC8A44ED17}|NWindProxyService\\NWindProxyService.csproj|solutionrelative:nwindproxyservice\\proxyauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85AF85AB-6905-49EF-ABB0-2A47EC42CAE9}|DAL\\DAL.csproj|C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\dal\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85AF85AB-6905-49EF-ABB0-2A47EC42CAE9}|DAL\\DAL.csproj|solutionrelative:dal\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4109F97A-355C-47B8-A97A-CB10026347D4}|SLC\\SLC.csproj|c:\\users\\owner\\documents\\github\\distribuidas\\proyecto\\proyecto\\slc\\iauditoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4109F97A-355C-47B8-A97A-CB10026347D4}|SLC\\SLC.csproj|solutionrelative:slc\\iauditoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E0E67E0C-AACB-41CA-AE93-E2BC8A44ED17}|NWindProxyService\\NWindProxyService.csproj|C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\nwindproxyservice\\proxysesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,24 +15,16 @@
       "RelativeMoniker": "D:0:0:{E0E67E0C-AACB-41CA-AE93-E2BC8A44ED17}|NWindProxyService\\NWindProxyService.csproj|solutionrelative:nwindproxyservice\\proxytask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE05461D-6FEE-4BD1-9720-BFBD8C64B2A7}|BILL\\BILL.csproj|C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\bill\\usuariologic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE05461D-6FEE-4BD1-9720-BFBD8C64B2A7}|BILL\\BILL.csproj|solutionrelative:bill\\usuariologic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0E67E0C-AACB-41CA-AE93-E2BC8A44ED17}|NWindProxyService\\NWindProxyService.csproj|C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\nwindproxyservice\\proxyusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0E67E0C-AACB-41CA-AE93-E2BC8A44ED17}|NWindProxyService\\NWindProxyService.csproj|solutionrelative:nwindproxyservice\\proxyusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4109F97A-355C-47B8-A97A-CB10026347D4}|SLC\\SLC.csproj|C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\slc\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4109F97A-355C-47B8-A97A-CB10026347D4}|SLC\\SLC.csproj|solutionrelative:slc\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0E67E0C-AACB-41CA-AE93-E2BC8A44ED17}|NWindProxyService\\NWindProxyService.csproj|C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\nwindproxyservice\\proxytoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0E67E0C-AACB-41CA-AE93-E2BC8A44ED17}|NWindProxyService\\NWindProxyService.csproj|solutionrelative:nwindproxyservice\\proxytoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85AF85AB-6905-49EF-ABB0-2A47EC42CAE9}|DAL\\DAL.csproj|C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\dal\\repositoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85AF85AB-6905-49EF-ABB0-2A47EC42CAE9}|DAL\\DAL.csproj|solutionrelative:dal\\repositoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85AF85AB-6905-49EF-ABB0-2A47EC42CAE9}|DAL\\DAL.csproj|C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\dal\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85AF85AB-6905-49EF-ABB0-2A47EC42CAE9}|DAL\\DAL.csproj|solutionrelative:dal\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60177CE3-6403-4CCE-8E5C-0A79486C574A}|Service\\Service.csproj|C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\service\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{60177CE3-6403-4CCE-8E5C-0A79486C574A}|Service\\Service.csproj|solutionrelative:service\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{60177CE3-6403-4CCE-8E5C-0A79486C574A}|Service\\Service.csproj|c:\\users\\owner\\documents\\github\\distribuidas\\proyecto\\proyecto\\service\\controllers\\sesioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60177CE3-6403-4CCE-8E5C-0A79486C574A}|Service\\Service.csproj|solutionrelative:service\\controllers\\sesioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -77,210 +37,85 @@
           "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SeguridadModel.tt",
-              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\DAL\\SeguridadModel.tt",
-              "RelativeDocumentMoniker": "DAL\\SeguridadModel.tt",
-              "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\DAL\\SeguridadModel.tt",
-              "RelativeToolTip": "DAL\\SeguridadModel.tt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-12-11T16:17:16.494Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SeguridadModel.Context.tt",
-              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\DAL\\SeguridadModel.Context.tt",
-              "RelativeDocumentMoniker": "DAL\\SeguridadModel.Context.tt",
-              "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\DAL\\SeguridadModel.Context.tt",
-              "RelativeToolTip": "DAL\\SeguridadModel.Context.tt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-12-11T16:17:04.236Z",
+              "DocumentIndex": 5,
+              "Title": "SesionController.cs",
+              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\Service\\Controllers\\SesionController.cs",
+              "RelativeDocumentMoniker": "Service\\Controllers\\SesionController.cs",
+              "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\Service\\Controllers\\SesionController.cs",
+              "RelativeToolTip": "Service\\Controllers\\SesionController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T16:39:44.663Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SeguridadModel.edmx [Diagram1]",
-              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\DAL\\SeguridadModel.edmx",
-              "RelativeDocumentMoniker": "DAL\\SeguridadModel.edmx",
-              "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\DAL\\SeguridadModel.edmx [Diagram1]",
-              "RelativeToolTip": "DAL\\SeguridadModel.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-12-11T16:16:59.066Z",
-              "EditorCaption": " [Diagram1]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ISesionService.cs",
-              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\SLC\\ISesionService.cs",
-              "RelativeDocumentMoniker": "SLC\\ISesionService.cs",
-              "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\SLC\\ISesionService.cs",
-              "RelativeToolTip": "SLC\\ISesionService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T16:16:25.686Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "ProxyToken.cs",
               "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\NWindProxyService\\ProxyToken.cs",
               "RelativeDocumentMoniker": "NWindProxyService\\ProxyToken.cs",
               "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\NWindProxyService\\ProxyToken.cs",
               "RelativeToolTip": "NWindProxyService\\ProxyToken.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA8wBsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T06:07:30.289Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IAuditoriaService.cs",
-              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\SLC\\IAuditoriaService.cs",
-              "RelativeDocumentMoniker": "SLC\\IAuditoriaService.cs",
-              "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\SLC\\IAuditoriaService.cs",
-              "RelativeToolTip": "SLC\\IAuditoriaService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T16:15:22.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "ProxyUsuario.cs",
               "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\NWindProxyService\\ProxyUsuario.cs",
               "RelativeDocumentMoniker": "NWindProxyService\\ProxyUsuario.cs",
               "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\NWindProxyService\\ProxyUsuario.cs",
               "RelativeToolTip": "NWindProxyService\\ProxyUsuario.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAqwA0AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAABUAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T15:39:49.459Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "ProxyAuditoria.cs",
               "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\NWindProxyService\\ProxyAuditoria.cs",
               "RelativeDocumentMoniker": "NWindProxyService\\ProxyAuditoria.cs",
               "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\NWindProxyService\\ProxyAuditoria.cs",
               "RelativeToolTip": "NWindProxyService\\ProxyAuditoria.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAqwAsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T06:02:38.96Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "ProxySesion.cs",
               "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\NWindProxyService\\ProxySesion.cs",
               "RelativeDocumentMoniker": "NWindProxyService\\ProxySesion.cs",
               "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\NWindProxyService\\ProxySesion.cs",
               "RelativeToolTip": "NWindProxyService\\ProxySesion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T06:06:48.962Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EFRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\DAL\\EFRepository.cs",
-              "RelativeDocumentMoniker": "DAL\\EFRepository.cs",
-              "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\DAL\\EFRepository.cs",
-              "RelativeToolTip": "DAL\\EFRepository.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAlwCcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T06:47:42.015Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "ProxyTask.cs",
               "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\NWindProxyService\\ProxyTask.cs",
               "RelativeDocumentMoniker": "NWindProxyService\\ProxyTask.cs",
               "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\NWindProxyService\\ProxyTask.cs",
               "RelativeToolTip": "NWindProxyService\\ProxyTask.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwDcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T06:32:46.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IUsuarioService.cs",
-              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\SLC\\IUsuarioService.cs",
-              "RelativeDocumentMoniker": "SLC\\IUsuarioService.cs",
-              "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\SLC\\IUsuarioService.cs",
-              "RelativeToolTip": "SLC\\IUsuarioService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAlwAkAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T06:43:22.158Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UsuarioLogic.cs",
-              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\BILL\\UsuarioLogic.cs",
-              "RelativeDocumentMoniker": "BILL\\UsuarioLogic.cs",
-              "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\BILL\\UsuarioLogic.cs",
-              "RelativeToolTip": "BILL\\UsuarioLogic.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAwCQAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T06:45:14.624Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\DAL\\IRepository.cs",
-              "RelativeDocumentMoniker": "DAL\\IRepository.cs",
-              "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\DAL\\IRepository.cs",
-              "RelativeToolTip": "DAL\\IRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAASwAsAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T06:46:43.99Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "RepositoryFactory.cs",
-              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\DAL\\RepositoryFactory.cs",
-              "RelativeDocumentMoniker": "DAL\\RepositoryFactory.cs",
-              "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\DAL\\RepositoryFactory.cs",
-              "RelativeToolTip": "DAL\\RepositoryFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T06:50:09.215Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\Service\\Web.config",
-              "RelativeDocumentMoniker": "Service\\Web.config",
-              "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\Service\\Web.config",
-              "RelativeToolTip": "Service\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-12-11T05:47:32.057Z",
               "EditorCaption": ""
             }
           ]

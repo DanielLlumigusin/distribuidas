@@ -13,7 +13,7 @@ namespace NWindProxyService
         public async Task<Auditoria> CreateAudtoriaAsync(Auditoria auditoria)
         {
             ProxyTask task = new ProxyTask();
-            return await task.SendPost<Auditoria, Auditoria>("/api/nwind/CreateAuditoria", auditoria);
+            return await task.SendPost<Auditoria, Auditoria>("/api/Auditoria/CreateAuditoria", auditoria);
         }
         public Auditoria CreateAuditoria(Auditoria auditoria)
         {
@@ -25,7 +25,7 @@ namespace NWindProxyService
         public async Task<List<Auditoria>> GetAllAuditoriaAsync(string EventType)
         {
             ProxyTask task = new ProxyTask();
-            return await task.SendGet<List<Auditoria>>($"/api/nwind/getallauditoria/{EventType}");
+            return await task.SendGet<List<Auditoria>>($"/api/Auditoria/getallauditoria/{EventType}");
         }
 
         public List<Auditoria> GetAllAuditoria(string EventType)

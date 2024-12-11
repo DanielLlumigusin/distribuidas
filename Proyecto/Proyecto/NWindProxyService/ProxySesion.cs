@@ -13,7 +13,7 @@ namespace NWindProxyService
         public async Task<Sesione> CreateSesionAsync(Sesione sesione)
         {
             ProxyTask task = new ProxyTask();
-            return await task.SendPost<Sesione, Sesione>("/api/nwind/createsesion/", sesione);
+            return await task.SendPost<Sesione, Sesione>("/api/Sesion/createsesion/", sesione);
         }
         public Sesione CreateSesion(Sesione sesione)
         {
@@ -24,7 +24,7 @@ namespace NWindProxyService
         public async Task<Sesione> FilterSesionAsync(int UserId)
         {
             ProxyTask task = new ProxyTask();
-            return await task.SendGet<Sesione>($"/api/nwind/filtersesion/{UserId}");
+            return await task.SendGet<Sesione>($"/api/Sesion/filtersesion/{UserId}");
         }
 
         public Sesione FilterSesion(int UserId)
@@ -37,7 +37,7 @@ namespace NWindProxyService
         public async Task<Sesione> UpdateSesionAsync(Sesione sesione)
         {
             ProxyTask task = new ProxyTask();
-            return await task.SendPost<Sesione, Sesione>("/api/nwind/updatesesion", sesione);
+            return await task.SendPost<Sesione, Sesione>("/api/Sesion/updatesesion", sesione);
         }
         public bool UpdateSesion(Sesione sesione)
         {

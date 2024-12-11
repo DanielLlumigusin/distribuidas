@@ -17,7 +17,7 @@ namespace NWindProxyService
         public async Task<Usuario> CreateUsuarioAsync(Usuario newUsuario)
         {
             ProxyTask task = new ProxyTask();
-            return await task.SendPost<Usuario, Usuario>("/api/nwind/createusuario",newUsuario);
+            return await task.SendPost<Usuario, Usuario>("/api/Usuario/createusuario",newUsuario);
         }
         public Usuario CreateUsuario(Usuario usuario)
         {
@@ -29,7 +29,7 @@ namespace NWindProxyService
         public async Task<bool> DeleteUsuarioAsync(Usuario usuario)
         {
             ProxyTask task = new ProxyTask();
-            return await task.SendGet<bool>($"/api/nwind/deleteusuario/{usuario.Id}");
+            return await task.SendGet<bool>($"/api/Usuario/deleteusuario/{usuario.Id}");
         }
         public bool DeleteUsuario(Usuario usuario)
         {
@@ -41,7 +41,7 @@ namespace NWindProxyService
         public async Task<bool> EditUsuarioAsync(Usuario usuario)
         {
             ProxyTask task = new ProxyTask();
-            return await task.SendPost<bool,Usuario>("/api/nwind/EditUsuario", usuario);
+            return await task.SendPost<bool,Usuario>("/api/Usuario/EditUsuario", usuario);
         }
         public bool EditUsuario(Usuario usuario)
         {
@@ -53,7 +53,7 @@ namespace NWindProxyService
         public async Task<Usuario> FilterUsuarioAsync(string username)
         {
             ProxyTask task = new ProxyTask();
-            return await task.SendGet<Usuario>($"/api/nwind/FilterUsuario/{username}");
+            return await task.SendGet<Usuario>($"/api/Usuario/FilterUsuario/{username}");
         }
         public Usuario FilterUsuario(string username)
         {
@@ -65,7 +65,7 @@ namespace NWindProxyService
         public async Task<List<Usuario>> GetUsuariosAsync(string name)
         {
             ProxyTask task = new ProxyTask();
-            return await task.SendGet<List<Usuario>>($"/api/nwind/getusuarios/{name}");
+            return await task.SendGet<List<Usuario>>($"/api/Usuario/getusuarios/{name}");
         }
         public List<Usuario> GetUsuarios(string name)
         {
