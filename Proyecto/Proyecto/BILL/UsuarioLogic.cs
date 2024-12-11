@@ -33,19 +33,9 @@ namespace BILL
             bool result = false;
             using (var r = RepositoryFactory.CreateRepository())
             {
-                Usuario res = null;
-                try
-                {
-                    res = r.Retrieve<Usuario>(u => u.Rol == "Admin");
-                    if (res == null)
-                    {
-                        result = r.Delete<Usuario>(usuario);
-                    }
-                }
-                catch
-                {
-
-                }
+                bool res = false;            
+                result = r.Delete<Usuario>(usuario);
+                    
             }
             return result;
         }
@@ -55,7 +45,7 @@ namespace BILL
             bool result = false;
             using( var r = RepositoryFactory.CreateRepository())
             {
-                result = r.Delete<Usuario>(usuario);
+                result = r.Update<Usuario>(usuario);
             }
 
             return result;

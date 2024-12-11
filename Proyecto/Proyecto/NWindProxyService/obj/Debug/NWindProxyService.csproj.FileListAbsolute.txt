@@ -1,0 +1,16 @@
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\NWindProxyService\bin\Debug\NWindProxyService.dll
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\NWindProxyService\bin\Debug\NWindProxyService.pdb
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\NWindProxyService\bin\Debug\DAL.dll
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\NWindProxyService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\NWindProxyService\bin\Debug\SLC.dll
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\NWindProxyService\bin\Debug\EntityFramework.dll
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\NWindProxyService\bin\Debug\DAL.pdb
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\NWindProxyService\bin\Debug\DAL.dll.config
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\NWindProxyService\bin\Debug\SLC.pdb
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\NWindProxyService\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\NWindProxyService\bin\Debug\EntityFramework.xml
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\NWindProxyService\obj\Debug\NWindProxyService.csproj.AssemblyReference.cache
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\NWindProxyService\obj\Debug\NWindProxyService.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\NWindProxyService\obj\Debug\NWindPro.37EB41C3.Up2Date
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\NWindProxyService\obj\Debug\NWindProxyService.dll
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\NWindProxyService\obj\Debug\NWindProxyService.pdb
