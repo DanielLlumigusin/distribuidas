@@ -11,6 +11,6 @@ namespace SLC
     {
         Auditoria CreateAuditoria(Auditoria auditoria);
 
-        List<Auditoria> GetAllAuditoria();
+        List<Auditoria> GetAllAuditoria(string EventType);
     }
 }

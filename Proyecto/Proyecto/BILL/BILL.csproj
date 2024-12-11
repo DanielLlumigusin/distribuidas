@@ -41,8 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AuditoriaService.cs" />
+    <Compile Include="AuditoriaLogic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SesionLogic.cs" />
+    <Compile Include="TokenLogic.cs" />
     <Compile Include="UsuarioLogic.cs" />
   </ItemGroup>
   <ItemGroup>

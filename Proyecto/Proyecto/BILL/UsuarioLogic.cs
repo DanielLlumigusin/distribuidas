@@ -30,22 +30,53 @@ namespace BILL
 
         public bool DeleteUsuario(Usuario usuario)
         {
-            throw new NotImplementedException();
+            bool result = false;
+            using (var r = RepositoryFactory.CreateRepository())
+            {
+                Usuario res = null;
+                try
+                {
+                    res = r.Retrieve<Usuario>(u => u.Rol == "Admin");
+                    if (res == null)
+                    {
+                        result = r.Delete<Usuario>(usuario);
+                    }
+                }
+                catch
+                {
+
+                }
+            }
+            return result;
         }
 
         public bool EditUsuario(Usuario usuario)
         {
-            throw new NotImplementedException();
+            bool result = false;
+            using( var r = RepositoryFactory.CreateRepository())
+            {
+                result = r.Delete<Usuario>(usuario);
+            }
+
+            return result;
         }
 
-        public Usuario FilterUsuario(string name)
+        public Usuario FilterUsuario(string username)
         {
-            throw new NotImplementedException();
+            Usuario result = null;
+            using (var r = RepositoryFactory.CreateRepository()) { 
+                result = r.Retrieve<Usuario>(u => u.Username == username);
+            }
+            return result;
         }
 
-        public List<Usuario> GetUsuarios()
+        public List<Usuario> GetUsuarios(string name)
         {
-            throw new NotImplementedException();
+            List<Usuario> result = null;
+            using (var r = RepositoryFactory.CreateRepository()) {
+                result = r.Filter<Usuario>(u => u.Name == name);
+            }
+            return result;
         }
     }
 }
