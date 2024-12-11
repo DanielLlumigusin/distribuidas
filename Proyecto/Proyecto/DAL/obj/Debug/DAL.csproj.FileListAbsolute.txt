@@ -10,3 +10,5 @@ C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\DAL\obj\Debug\DAL
 C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\DAL\obj\Debug\DAL.csproj.Up2Date
 C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\DAL\obj\Debug\DAL.dll
 C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\DAL\obj\Debug\DAL.pdb
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\DAL\bin\Debug\Entities.dll
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\DAL\bin\Debug\Entities.pdb

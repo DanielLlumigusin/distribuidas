@@ -1,0 +1,12 @@
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\SLC\bin\Debug\SLC.dll
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\SLC\bin\Debug\SLC.pdb
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\SLC\bin\Debug\DAL.dll
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\SLC\bin\Debug\EntityFramework.dll
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\SLC\bin\Debug\DAL.pdb
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\SLC\bin\Debug\DAL.dll.config
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\SLC\bin\Debug\EntityFramework.xml
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\SLC\obj\Debug\SLC.csproj.AssemblyReference.cache
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\SLC\obj\Debug\SLC.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\SLC\obj\Debug\SLC.csproj.Up2Date
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\SLC\obj\Debug\SLC.dll
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\SLC\obj\Debug\SLC.pdb
