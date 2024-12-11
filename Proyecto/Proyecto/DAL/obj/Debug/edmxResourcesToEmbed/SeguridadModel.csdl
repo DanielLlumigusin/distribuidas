@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SeguridadSistemaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Auditoria">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" />
+    <Property Name="EventType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="EventDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="EventTime" Type="DateTime" Precision="3" />
+    <Property Name="IpAddress" Type="String" MaxLength="45" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Usuario" Relationship="Self.FK_Auditoria_Usuarios" FromRole="Auditoria" ToRole="Usuarios" />
+  </EntityType>
+  <EntityType Name="Sesione">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="SessionToken" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CreatedAt" Type="DateTime" Precision="3" />
+    <Property Name="ExpiresAt" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Usuario" Relationship="Self.FK_Sesiones_Usuarios" FromRole="Sesiones" ToRole="Usuarios" />
+  </EntityType>
+  <EntityType Name="TokensSeguridad">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="Token" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TokenType" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ExpiresAt" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Usuario" Relationship="Self.FK_TokensSeguridad_Usuarios" FromRole="TokensSeguridad" ToRole="Usuarios" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PasswordHash" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Rol" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Status" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="SessionAttempts" Type="Int32" />
+    <Property Name="CreatedAt" Type="DateTime" Precision="3" />
+    <Property Name="UpdatedAt" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Auditorias" Relationship="Self.FK_Auditoria_Usuarios" FromRole="Usuarios" ToRole="Auditoria" />
+    <NavigationProperty Name="Sesiones" Relationship="Self.FK_Sesiones_Usuarios" FromRole="Usuarios" ToRole="Sesiones" />
+    <NavigationProperty Name="TokensSeguridads" Relationship="Self.FK_TokensSeguridad_Usuarios" FromRole="Usuarios" ToRole="TokensSeguridad" />
+  </EntityType>
+  <Association Name="FK_Auditoria_Usuarios">
+    <End Role="Usuarios" Type="Self.Usuario" Multiplicity="0..1" />
+    <End Role="Auditoria" Type="Self.Auditoria" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuarios">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Auditoria">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sesiones_Usuarios">
+    <End Role="Usuarios" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="Sesiones" Type="Self.Sesione" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuarios">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Sesiones">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TokensSeguridad_Usuarios">
+    <End Role="Usuarios" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="TokensSeguridad" Type="Self.TokensSeguridad" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuarios">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TokensSeguridad">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SeguridadSistemaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Auditorias" EntityType="Self.Auditoria" />
+    <EntitySet Name="Sesiones" EntityType="Self.Sesione" />
+    <EntitySet Name="TokensSeguridads" EntityType="Self.TokensSeguridad" />
+    <EntitySet Name="Usuarios" EntityType="Self.Usuario" />
+    <AssociationSet Name="FK_Auditoria_Usuarios" Association="Self.FK_Auditoria_Usuarios">
+      <End Role="Usuarios" EntitySet="Usuarios" />
+      <End Role="Auditoria" EntitySet="Auditorias" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sesiones_Usuarios" Association="Self.FK_Sesiones_Usuarios">
+      <End Role="Usuarios" EntitySet="Usuarios" />
+      <End Role="Sesiones" EntitySet="Sesiones" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TokensSeguridad_Usuarios" Association="Self.FK_TokensSeguridad_Usuarios">
+      <End Role="Usuarios" EntitySet="Usuarios" />
+      <End Role="TokensSeguridad" EntitySet="TokensSeguridads" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

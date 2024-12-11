@@ -1,9 +1,0 @@
-C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Sales2024Test\SLC\bin\Debug\SLC.dll
-C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Sales2024Test\SLC\bin\Debug\SLC.pdb
-C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Sales2024Test\SLC\bin\Debug\Entities.dll
-C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Sales2024Test\SLC\bin\Debug\Entities.pdb
-C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Sales2024Test\SLC\obj\Debug\SLC.csproj.AssemblyReference.cache
-C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Sales2024Test\SLC\obj\Debug\SLC.csproj.CoreCompileInputs.cache
-C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Sales2024Test\SLC\obj\Debug\SLC.csproj.Up2Date
-C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Sales2024Test\SLC\obj\Debug\SLC.dll
-C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Sales2024Test\SLC\obj\Debug\SLC.pdb
