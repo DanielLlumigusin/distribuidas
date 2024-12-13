@@ -13,6 +13,6 @@ namespace SLC
         bool EditUsuario(Usuario usuario);
         Usuario FilterUsuario(string username);
         List<Usuario> GetUsuarios(string name);
-        bool DeleteUsuario(Usuario usuario);
+        bool DeleteUsuario(int id);
     }
 }

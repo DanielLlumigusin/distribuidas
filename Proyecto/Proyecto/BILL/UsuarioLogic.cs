@@ -4,8 +4,6 @@ using SLC;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BILL
 {
@@ -13,60 +11,83 @@ namespace BILL
     {
         public Usuario CreateUsuario(Usuario usuario)
         {
-            Usuario res = null;
-            using(var r = RepositoryFactory.CreateRepository())
+            try
             {
-                Usuario result = r.Retrieve<Usuario>(u => u.Username == usuario.Username);
-                if (result == null) { 
-                    res = r.Create<Usuario>(usuario);
-                }
-                else
+                using (var r = RepositoryFactory.CreateRepository())
                 {
+                    var existingUser = r.Retrieve<Usuario>(u => u.Username == usuario.Username);
 
+                    if (existingUser != null)
+                    {
+                        throw new InvalidOperationException("El usuario ya existe.");
+                    }
+
+                    return r.Create<Usuario>(usuario);
+                }
+            }
+            catch (Exception ex)
+            {
+                // Manejo o registro del error
+                throw new Exception("Error al crear el usuario.", ex);
+            }
+        }
+
+        public bool DeleteUsuario(int id)
+        {
+            bool res = false;
+            var usuario = RetrieveById(id);
+            if (usuario != null)
+            {
+                using (var r = RepositoryFactory.CreateRepository())
+                {
+                    res = r.Delete(usuario);
                 }
             }
             return res;
         }
 
-        public bool DeleteUsuario(Usuario usuario)
-        {
-            bool result = false;
-            using (var r = RepositoryFactory.CreateRepository())
-            {
-                bool res = false;            
-                result = r.Delete<Usuario>(usuario);
-                    
-            }
-            return result;
-        }
-
         public bool EditUsuario(Usuario usuario)
         {
-            bool result = false;
-            using( var r = RepositoryFactory.CreateRepository())
+            bool res = false;
+            using(var r = RepositoryFactory.CreateRepository())
             {
-                result = r.Update<Usuario>(usuario);
+                Usuario temp = r.Retrieve<Usuario>
+                    (u => u.Id == usuario.Id);
+                if(temp == null)
+                {
+                    res = r.Update(usuario);
+                }
             }
-
-            return result;
+            return res;
         }
 
         public Usuario FilterUsuario(string username)
         {
-            Usuario result = null;
-            using (var r = RepositoryFactory.CreateRepository()) { 
-                result = r.Retrieve<Usuario>(u => u.Username == username);
+            Usuario res = null;
+                using (var r = RepositoryFactory.CreateRepository())
+                {
+                    res = r.Retrieve<Usuario>(u => u.Username == username);
+                }
+            return res;
+        }
+        public Usuario RetrieveById(int id)
+        {
+            Usuario res = null;
+            using (var r = RepositoryFactory.CreateRepository())
+            {
+                res = r.Retrieve<Usuario>(u => u.Id  == id);
             }
-            return result;
+            return res;
         }
 
         public List<Usuario> GetUsuarios(string name)
         {
-            List<Usuario> result = null;
-            using (var r = RepositoryFactory.CreateRepository()) {
-                result = r.Filter<Usuario>(u => u.Name == name);
-            }
-            return result;
+            List<Usuario> res = null;
+                using (var r = RepositoryFactory.CreateRepository())
+                {
+                    res = r.Filter<Usuario>(u => u.Name.Contains(name));                    
+                }
+            return res;
         }
     }
 }

@@ -18,6 +18,8 @@ namespace Entities
         public SeguridadSistemaEntities()
             : base("name=SeguridadSistemaEntities")
         {
+            this.Configuration.LazyLoadingEnabled = false;
+            this.Configuration.ProxyCreationEnabled = false;
         }
     
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

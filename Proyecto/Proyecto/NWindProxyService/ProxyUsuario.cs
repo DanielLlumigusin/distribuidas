@@ -26,15 +26,15 @@ namespace NWindProxyService
             return result;
         }
 
-        public async Task<bool> DeleteUsuarioAsync(Usuario usuario)
+        public async Task<bool> DeleteUsuarioAsync(int id)
         {
             ProxyTask task = new ProxyTask();
-            return await task.SendGet<bool>($"/api/Usuario/deleteusuario/{usuario.Id}");
+            return await task.SendGet<bool>($"/api/Usuario/deleteusuario/{id}");
         }
-        public bool DeleteUsuario(Usuario usuario)
+        public bool DeleteUsuario(int id)
         {
             bool result = false;
-            Task.Run(async () => await DeleteUsuarioAsync (usuario)).Wait();
+            Task.Run(async () => await DeleteUsuarioAsync (id)).Wait();
             return result;
         }
 

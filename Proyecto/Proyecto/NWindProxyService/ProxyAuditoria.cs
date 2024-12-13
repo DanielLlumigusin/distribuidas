@@ -25,7 +25,7 @@ namespace NWindProxyService
         public async Task<List<Auditoria>> GetAllAuditoriaAsync(string EventType)
         {
             ProxyTask task = new ProxyTask();
-            return await task.SendGet<List<Auditoria>>($"/api/Auditoria/getallauditoria/{EventType}");
+            return await task.SendGet<List<Auditoria>>($"/api/Auditoria/getallauditorias/{EventType}");
         }
 
         public List<Auditoria> GetAllAuditoria(string EventType)

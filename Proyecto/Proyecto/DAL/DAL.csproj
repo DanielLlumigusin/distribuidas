@@ -56,10 +56,34 @@
     <Compile Include="..\Entities\Auditoria.cs">
       <DependentUpon>SeguridadModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="..\Entities\Auditoria.cs">
+      <DependentUpon>SeguridadModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Entities\Auditoria.cs">
+      <DependentUpon>SeguridadModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Entities\Sesione.cs">
+      <DependentUpon>SeguridadModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Entities\Sesione.cs">
+      <DependentUpon>SeguridadModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="..\Entities\Sesione.cs">
       <DependentUpon>SeguridadModel.tt</DependentUpon>
     </Compile>
     <Compile Include="..\Entities\TokensSeguridad.cs">
+      <DependentUpon>SeguridadModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Entities\TokensSeguridad.cs">
+      <DependentUpon>SeguridadModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Entities\TokensSeguridad.cs">
+      <DependentUpon>SeguridadModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Entities\Usuario.cs">
+      <DependentUpon>SeguridadModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Entities\Usuario.cs">
       <DependentUpon>SeguridadModel.tt</DependentUpon>
     </Compile>
     <Compile Include="..\Entities\Usuario.cs">

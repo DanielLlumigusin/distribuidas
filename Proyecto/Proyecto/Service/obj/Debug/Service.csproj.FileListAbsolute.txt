@@ -1,5 +1,3 @@
-C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\Service\obj\Debug\Service.csproj.AssemblyReference.cache
-C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
 C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\Service\bin\Service.dll.config
 C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\Service\bin\Service.dll
 C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\Service\bin\Service.pdb
@@ -86,6 +84,8 @@ C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\Service\bin\Syste
 C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\Service\bin\System.Web.WebPages.Deployment.xml
 C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\Service\bin\System.Web.WebPages.Razor.xml
 C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\Service\bin\Newtonsoft.Json.xml
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\Service\obj\Debug\Service.csproj.AssemblyReference.cache
+C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
 C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\Service\obj\Debug\Service.csproj.Up2Date
 C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\Service\obj\Debug\Service.dll
 C:\Users\Owner\Documents\GitHub\distribuidas\Proyecto\Proyecto\Service\obj\Debug\Service.pdb

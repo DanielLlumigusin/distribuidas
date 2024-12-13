@@ -1,0 +1,25 @@
+﻿@{
+    Layout = null;
+    
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <link href="~/Content/Global.css" rel="stylesheet" />
+    <link href="~/Content/Index.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="login-container">
+        @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+        {
+            <input type="text" class="login-input" name="username" placeholder="Username" />
+            <input type="password" class="login-input" name="password" placeholder="Password" />
+            <button type="submit" class="login-button">Login</button>
+            <p>@ViewBag.Message</p>
+        }
+    </div>
+</body>
+</html>

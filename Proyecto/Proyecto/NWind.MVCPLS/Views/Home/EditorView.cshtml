@@ -1,0 +1,23 @@
+﻿@model Entities.Usuario
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor Dashboard</title>
+    <link rel="stylesheet" href="~/Content/AdminStyles.css">
+</head>
+<body>
+
+<h1>Vista de Editor</h1>
+<p>Nombre: @Model.Name</p>
+<p>Username: @Model.Username</p>
+<p>Rol: @Model.Rol</p>
+<p>Status: @Model.Status</p>
+<form method="post" action="/Home/Update">
+    <input type="hidden" name="Username" value="@Model.Username" />
+    <button type="submit">Actualizar</button>
+</form>
+
+</body>

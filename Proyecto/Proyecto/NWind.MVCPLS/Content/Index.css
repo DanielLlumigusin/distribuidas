@@ -1,0 +1,55 @@
+﻿
+/* Login Container */
+.login-container {
+    background-color: #ffffff; /* Fondo blanco limpio */
+    border: 2px solid #28a745; /* Verde césped */
+    border-radius: 10px;
+    padding: 20px 30px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+    .login-container input[type="text"],
+    .login-container input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #cccccc; /* Borde gris claro */
+        border-radius: 5px;
+        font-size: 14px;
+        box-sizing: border-box;
+    }
+
+        /* Input Focus Styles */
+        .login-container input[type="text"]:focus,
+        .login-container input[type="password"]:focus {
+            border-color: #28a745; /* Resaltar con verde césped */
+            outline: none;
+            box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+        }
+
+    /* Submit Button */
+    .login-container button {
+        width: 100%;
+        padding: 10px;
+        background-color: #28a745; /* Verde césped */
+        color: #ffffff; /* Texto blanco */
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        /* Hover Effect for Button */
+        .login-container button:hover {
+            background-color: #218838; /* Verde más oscuro al pasar el ratón */
+        }
+
+    /* Placeholder Styles */
+    .login-container input::placeholder {
+        color: #999999; /* Placeholder gris claro */
+        font-style: italic;
+    }

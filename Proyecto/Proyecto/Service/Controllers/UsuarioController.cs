@@ -9,8 +9,16 @@ using System.Web.Http;
 
 namespace Service.Controllers
 {
-    public class UsuarioController : ApiController, IUsuarioService
+    public class UsuarioController : ApiController
     {
+        [HttpGet]
+        public Usuario FilterUsuario(string username)
+        {
+            var usuarioLogic = new UsuarioLogic();
+            var result = usuarioLogic.FilterUsuario(username);
+            return result;
+        }
+
         [HttpPost]
         public Usuario CreateUsuario(Usuario usuario)
         {
@@ -20,10 +28,10 @@ namespace Service.Controllers
         }
 
         [HttpDelete]
-        public bool DeleteUsuario(Usuario usuario)
+        public bool DeleteUsuario(int id)
         {
             var usuarioLogic = new UsuarioLogic();
-            var result = usuarioLogic.DeleteUsuario(usuario);
+            var result = usuarioLogic.DeleteUsuario(id);
             return result;
         }
 
@@ -34,13 +42,8 @@ namespace Service.Controllers
             var result = usuarioLogic.EditUsuario(usuario);
             return result;
         }
-        [HttpGet]
-        public Usuario FilterUsuario(string username)
-        {
-            var usuarioLogic = new UsuarioLogic();
-            var result = usuarioLogic.FilterUsuario(username);
-            return result;
-        }
+
+
         [HttpGet]
         public List<Usuario> GetUsuarios(string name)
         {

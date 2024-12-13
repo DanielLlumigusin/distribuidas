@@ -1,0 +1,31 @@
+﻿@model List<Entities.Usuario>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Dashboard</title>
+</head>
+<body>
+    @foreach (var user in Model)
+    {
+        <div>
+            <p>Nombre: @user.Name</p>
+            <p>UserName: @user.Username</p>
+            <p>Rol: @user.Rol</p>
+            <p>Status: @user.Status</p>
+
+            @if (user.Rol == "Admin")
+            {
+                <button type="submit" name="btn-Create">Agregar</button>
+                <button type="submit" name="btn-Update">Actualizar</button>
+                <button type="submit" name="btn-Delete">Eliminar</button>
+            }
+            else if (user.Rol == "Editor")
+            {
+                <button type="submit" name="btn-Update">Actualizar</button>
+            }
+        </div>
+    }
+</body>
+</html>
