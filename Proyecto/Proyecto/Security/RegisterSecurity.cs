@@ -57,6 +57,112 @@ namespace Security
             return result;
         }
 
+        public bool CreateUser(Usuario usuario)
+        {
+            bool result = false;
+            try
+            {
+                if (usuario == null) return false;
+
+                var usuarioLogic = new BILL.UsuarioLogic();
+                var proxyAuditoria = new BILL.AuditoriaLogic();
+                var usuarioSecurity = new UsuarioSecurity();
+
+                // Crear nuevo usuario
+                Usuario newUsuario = new Usuario
+                {
+                    Name = usuario.Name,
+                    Username = usuario.Username,
+                    PasswordHash = usuarioSecurity.GenerateHashPassword(usuario.PasswordHash),
+                    Rol = usuario.Rol ?? "Viewer",
+                    Status = "Active", 
+                    SessionAttempts = 3,
+                    CreatedAt = DateTime.Now,
+                    UpdatedAt = null
+                };
+
+                usuarioLogic.CreateUsuario(newUsuario);
+
+                // Obtener ID del usuario creado
+                var userId = usuarioLogic.FilterUsuario(newUsuario.Username);
+
+                // Crear registro de auditoría
+                Auditoria newAuditoria = new Auditoria
+                {
+                    UserId = userId.Id,
+                    EventType = "AccountActivation",
+                    EventDescription = "Usuario creado exitosamente.",
+                    IpAddress = GetLocalIPAddress(),
+                    EventTime = DateTime.Now
+                };
+                proxyAuditoria.CreateAuditoria(newAuditoria);
+
+                result = true;
+            }
+            catch (Exception ex)
+            {
+                // Manejo de excepciones: registrar logs o auditorías de error
+                Console.WriteLine("Error al crear usuario: " + ex.Message);
+            }
+            return result;
+        }
+
+        public bool UpdateUser(int Id, string Name, string Username, string PasswordHash, string Rol, string Status)
+        {
+            var usuarioLogic = new BILL.UsuarioLogic();
+            var proxyAuditoria = new BILL.AuditoriaLogic();
+            var usuarioSecurity = new UsuarioSecurity();
+
+            bool result = false;
+
+            var usuario = usuarioLogic.FilterUsuario(Username);
+
+            try
+            {
+                if (usuario == null) return false;
+
+                // Crear nuevo usuario
+                Usuario newUsuario = new Usuario
+                {
+                    Id = Id, 
+                    Name = Name,
+                    Username = Username,
+                    PasswordHash = usuarioSecurity.GenerateHashPassword(PasswordHash),
+                    Rol = Rol,
+                    Status = Status,
+                    SessionAttempts = usuario.SessionAttempts, 
+                    CreatedAt = usuario.CreatedAt, 
+                    UpdatedAt = DateTime.Now
+                };
+
+                usuarioLogic.EditUsuario(newUsuario); 
+
+                // Obtener ID del usuario editado
+                var userId = usuarioLogic.FilterUsuario(newUsuario.Username);
+
+                // Crear registro de auditoría
+                Auditoria newAuditoria = new Auditoria
+                {
+                    UserId = userId.Id,
+                    EventType = "AccountActivation",
+                    EventDescription = "Usuario editado exitosamente.",
+                    IpAddress = GetLocalIPAddress(), 
+                    EventTime = DateTime.Now
+                };
+
+                proxyAuditoria.CreateAuditoria(newAuditoria); 
+
+                result = true;
+            }
+            catch (Exception ex)
+            {
+                
+                Console.WriteLine("Error al editar usuario: " + ex.Message);
+            }
+            return result;
+        }
+
+
         static string GetLocalIPAddress()
         {
             var host = Dns.GetHostEntry(Dns.GetHostName());

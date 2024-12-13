@@ -1,41 +1,43 @@
-﻿@model IEnumerable<Entities.Usuario>
+﻿@{
+    ViewBag.Title = "Administración";
+}
 
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="~/Content/AdminStyles.css">
 </head>
-<body>
-    <h1>Vista de Administrador</h1>
-    <table>
-        <thead>
+<h2>Panel de Administrador</h2>
+<p>Bienvenido, @Session["Username"]</p>
+<button onclick="window.location.href='/Home/CreateUserView'">Crear Nuevo Usuario</button>
+<table>
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Username</th>
+            <th>Rol</th>
+            <th>Status</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
             <tr>
-                <th>Nombre</th>
-                <th>Username</th>
-                <th>Rol</th>
-                <th>Status</th>
-                <th>Acciones</th>
+                <td>@user.Name</td>
+                <td>@user.Username</td>
+                <td>@user.Rol</td>
+                <td>@user.Status</td>
+                <td>
+                    <form action="/Home/UpdateView" method="get">
+                        <input type="hidden" name="Username" value="@user.Username" />
+                        <button type="submit">Editar</button>
+                    </form>
+                </td>
             </tr>
-        </thead>
-        <tbody>
-                        <button class="btn-create">Agregar</button>
-            @foreach (var user in Model)
-            {
-                <tr>
-                    <td>@user.Name</td>
-                    <td>@user.Username</td>
-                    <td>@user.Rol</td>
-                    <td>@user.Status</td>
-                    <td>
-                        <button class="btn-update">Actualizar</button>
-                        <button class="btn-delete">Eliminar</button>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
-</body>
-</html>
+        }
+    </tbody>
+</table>
+
+

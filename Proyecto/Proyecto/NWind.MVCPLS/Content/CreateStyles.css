@@ -1,0 +1,81 @@
+﻿/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8f5; /* Fondo verde claro suave */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    color: #2e8b57; /* Verde más oscuro */
+    text-align: center;
+}
+
+form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #2e8b57;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+    input:focus,
+    select:focus {
+        border-color: #2e8b57;
+        outline: none;
+        box-shadow: 0 0 5px rgba(46, 139, 87, 0.5);
+    }
+
+button {
+    background-color: #32cd32; /* Verde lima */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+    button:hover {
+        background-color: #2e8b57;
+    }
+
+p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+    p[style="color: red;"] {
+        font-weight: bold;
+    }
+
+    p[style="color: green;"] {
+        font-weight: bold;
+    }

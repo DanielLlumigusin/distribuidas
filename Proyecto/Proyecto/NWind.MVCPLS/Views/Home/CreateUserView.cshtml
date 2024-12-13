@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "Crear Usuario";
+}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Usuario</title>
+    <link rel="stylesheet" href="~/Content/CreateStyles.css">
+</head>
+<div>
+    <h2>Crear Nuevo Usuario</h2>
+
+</div>
+<form method="post" action="/Home/CreateUserView">
+    <label>Nombre:</label>
+    <input type="text" name="Name" required />
+    <br />
+    <label>Username:</label>
+    <input type="text" name="Username" required />
+    <br />
+    <label>Contraseña:</label>
+    <input type="password" name="PasswordHash" required />
+    <br />
+    <label>Repetir Contraseña:</label>
+    <input type="password" name="Password2" required />
+    <br />
+    <label>Rol:</label>
+    <select name="Rol" required>
+        <option value="Admin">Admin</option>
+        <option value="Editor">Editor</option>
+        <option value="Viewer">Viewer</option>
+    </select>
+    <br />
+    <button type="submit">Crear Usuario</button>
+</form>
+
+}

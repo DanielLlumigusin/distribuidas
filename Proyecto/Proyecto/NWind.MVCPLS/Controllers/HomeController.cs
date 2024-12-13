@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Deployment.Internal;
 using System.Linq;
+using System.Runtime.Remoting.Proxies;
 using System.Web.Mvc;
 using Entities;
 
@@ -20,12 +22,11 @@ namespace NWind.MVCPLS.Controllers
             var username = Session["Username"] as string;
             if (string.IsNullOrEmpty(username))
             {
-                return RedirectToAction("Index"); 
+                return RedirectToAction("Index");
             }
 
             var Proxy = new BILL.UsuarioLogic();
 
-            // Filtra el usuario actual
             var usuario = Proxy.FilterUsuario(username);
 
             if (usuario == null)
@@ -33,7 +34,6 @@ namespace NWind.MVCPLS.Controllers
                 return RedirectToAction("Index");
             }
 
-            // Redirige según el rol del usuario
             switch (usuario.Rol)
             {
                 case "Admin":
@@ -44,7 +44,7 @@ namespace NWind.MVCPLS.Controllers
                     return RedirectToAction("ViewerView", new { username = usuario.Username });
                 default:
                     ViewBag.Message = "Rol no reconocido.";
-                    return View("Error"); // Opcional: Vista para manejar roles no reconocidos
+                    return View("Error");
             }
         }
 
@@ -90,7 +90,7 @@ namespace NWind.MVCPLS.Controllers
         public ActionResult EditorView(string username)
         {
             var Proxy = new BILL.UsuarioLogic();
-            var usuario = Proxy.FilterUsuario(username); // Obtiene solo el usuario actual
+            var usuario = Proxy.FilterUsuario(username);
             return View(usuario);
         }
 
@@ -99,50 +99,63 @@ namespace NWind.MVCPLS.Controllers
         public ActionResult ViewerView(string username)
         {
             var Proxy = new BILL.UsuarioLogic();
-            var usuario = Proxy.FilterUsuario(username); // Obtiene solo el usuario actual
+            var usuario = Proxy.FilterUsuario(username);
             return View(usuario);
         }
 
         // Métodos de CRUD para Admin
-        [HttpPost]
-        public ActionResult Create(Usuario newUsuario)
+
+        [HttpGet]
+        public ActionResult CreateUserView()
         {
-            if (Session["Username"] != null && Session["Rol"] as string == "Admin")
-            {
-                var Proxy = new BILL.UsuarioLogic();
-                Proxy.CreateUsuario(newUsuario); // Implementar lógica para crear usuario
-                return RedirectToAction("AdminView");
-            }
-            return RedirectToAction("Index");
+            return View();
         }
 
+        // Crear un nuevo usuario
         [HttpPost]
-        public ActionResult Update(Usuario updatedUsuario)
+        public ActionResult CreateUserView(string Name, string Username,
+            string PasswordHash, string Rol)
         {
-            var username = Session["Username"] as string;
-            var rol = Session["Rol"] as string;
+            var Proxy = new Security.RegisterSecurity();
+            Usuario usuario = new Usuario();
+            usuario.Name = Name;
+            usuario.Username = Username;
+            usuario.PasswordHash = PasswordHash;
+            usuario.Rol = Rol;
+            
+            Proxy.CreateUser(usuario);
+            
+            return RedirectToAction("Home");
+        }
 
+        [HttpGet]
+        public ActionResult UpdateView(string Username)
+        {
             var Proxy = new BILL.UsuarioLogic();
-            if (rol == "Admin" || (rol == "Editor" && username == updatedUsuario.Username))
-            {
-                Proxy.EditUsuario(updatedUsuario);
-                return rol == "Admin" ? RedirectToAction("AdminView") : RedirectToAction("EditorView", new { username });
-            }
-
-            return RedirectToAction("Index");
+            var User = Proxy.FilterUsuario(Username);
+            return View(User);
         }
 
         [HttpPost]
-        public ActionResult Delete(string usernameToDelete)
+        public ActionResult UpdateView(
+            string Id, string Name, string Username, string PasswordHash ,string Rol,string Status)
         {
-            if (Session["Username"] != null && Session["Rol"] as string == "Admin")
-            {
-                var Proxy = new BILL.UsuarioLogic();
-                var user = Proxy.FilterUsuario(usernameToDelete);
-                Proxy.DeleteUsuario(user.Id);
-                return RedirectToAction("AdminView");
-            }
-            return RedirectToAction("Index");
+            var Proxy = new Security.RegisterSecurity();            
+            int newId = int.Parse(Id);
+           
+                Proxy.UpdateUser(newId,Name,Username, PasswordHash,Rol,Status);
+                return RedirectToAction("Home");
+            
         }
+
+        // Eliminar un usuario no se va a incorporar porque esta dependiendo de varias tablas.
+        // Sino que se le cambia de estado.
+        [HttpDelete]
+        public ActionResult DeleteUsuario()
+        {
+            return View();
+        }
+
+
     }
 }

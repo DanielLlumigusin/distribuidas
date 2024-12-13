@@ -98,6 +98,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\AdminStyles.css" />
+    <Content Include="Content\CreateStyles.css" />
     <Content Include="Content\Global.css" />
     <Content Include="Content\Index.css" />
     <Content Include="Global.asax" />
@@ -119,6 +120,8 @@
     <Content Include="Views\Home\AdminView.cshtml" />
     <Content Include="Views\Home\ViewerView.cshtml" />
     <Content Include="Views\Home\EditorView.cshtml" />
+    <Content Include="Views\Home\CreateUserView.cshtml" />
+    <Content Include="Views\Home\UpdateView.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

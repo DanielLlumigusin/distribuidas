@@ -35,7 +35,7 @@ namespace Service.Controllers
             return result;
         }
 
-        [HttpPut]
+        [HttpPost]
         public bool EditUsuario(Usuario usuario)
         {
             var usuarioLogic = new UsuarioLogic();

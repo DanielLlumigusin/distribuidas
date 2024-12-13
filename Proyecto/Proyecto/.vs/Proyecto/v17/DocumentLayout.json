@@ -3,44 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{159AE1E3-A2FF-4338-AD34-4918592CE8E2}|NWind.MVCPLS\\NWind.MVCPLS.csproj|c:\\users\\owner\\documents\\github\\distribuidas\\proyecto\\proyecto\\nwind.mvcpls\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{159AE1E3-A2FF-4338-AD34-4918592CE8E2}|NWind.MVCPLS\\NWind.MVCPLS.csproj|solutionrelative:nwind.mvcpls\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{159AE1E3-A2FF-4338-AD34-4918592CE8E2}|NWind.MVCPLS\\NWind.MVCPLS.csproj|c:\\users\\owner\\documents\\github\\distribuidas\\proyecto\\proyecto\\nwind.mvcpls\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{159AE1E3-A2FF-4338-AD34-4918592CE8E2}|NWind.MVCPLS\\NWind.MVCPLS.csproj|solutionrelative:nwind.mvcpls\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{159AE1E3-A2FF-4338-AD34-4918592CE8E2}|NWind.MVCPLS\\NWind.MVCPLS.csproj|c:\\users\\owner\\documents\\github\\distribuidas\\proyecto\\proyecto\\nwind.mvcpls\\views\\home\\adminview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{159AE1E3-A2FF-4338-AD34-4918592CE8E2}|NWind.MVCPLS\\NWind.MVCPLS.csproj|solutionrelative:nwind.mvcpls\\views\\home\\adminview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{159AE1E3-A2FF-4338-AD34-4918592CE8E2}|NWind.MVCPLS\\NWind.MVCPLS.csproj|c:\\users\\owner\\documents\\github\\distribuidas\\proyecto\\proyecto\\nwind.mvcpls\\views\\home\\viewerview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{159AE1E3-A2FF-4338-AD34-4918592CE8E2}|NWind.MVCPLS\\NWind.MVCPLS.csproj|solutionrelative:nwind.mvcpls\\views\\home\\viewerview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{159AE1E3-A2FF-4338-AD34-4918592CE8E2}|NWind.MVCPLS\\NWind.MVCPLS.csproj|C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\nwind.mvcpls\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{159AE1E3-A2FF-4338-AD34-4918592CE8E2}|NWind.MVCPLS\\NWind.MVCPLS.csproj|solutionrelative:nwind.mvcpls\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{159AE1E3-A2FF-4338-AD34-4918592CE8E2}|NWind.MVCPLS\\NWind.MVCPLS.csproj|c:\\users\\owner\\documents\\github\\distribuidas\\proyecto\\proyecto\\nwind.mvcpls\\views\\home\\updateview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{159AE1E3-A2FF-4338-AD34-4918592CE8E2}|NWind.MVCPLS\\NWind.MVCPLS.csproj|solutionrelative:nwind.mvcpls\\views\\home\\updateview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{159AE1E3-A2FF-4338-AD34-4918592CE8E2}|NWind.MVCPLS\\NWind.MVCPLS.csproj|c:\\users\\owner\\documents\\github\\distribuidas\\proyecto\\proyecto\\nwind.mvcpls\\views\\home\\editorview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{159AE1E3-A2FF-4338-AD34-4918592CE8E2}|NWind.MVCPLS\\NWind.MVCPLS.csproj|solutionrelative:nwind.mvcpls\\views\\home\\editorview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{159AE1E3-A2FF-4338-AD34-4918592CE8E2}|NWind.MVCPLS\\NWind.MVCPLS.csproj|c:\\users\\owner\\documents\\github\\distribuidas\\proyecto\\proyecto\\nwind.mvcpls\\content\\adminstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{159AE1E3-A2FF-4338-AD34-4918592CE8E2}|NWind.MVCPLS\\NWind.MVCPLS.csproj|solutionrelative:nwind.mvcpls\\content\\adminstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{60177CE3-6403-4CCE-8E5C-0A79486C574A}|Service\\Service.csproj|c:\\users\\owner\\documents\\github\\distribuidas\\proyecto\\proyecto\\service\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60177CE3-6403-4CCE-8E5C-0A79486C574A}|Service\\Service.csproj|solutionrelative:service\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D3E30C2C-E08C-40E3-A5DD-4C42F154E746}|Security\\Security.csproj|c:\\users\\owner\\documents\\github\\distribuidas\\proyecto\\proyecto\\security\\registersecurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3E30C2C-E08C-40E3-A5DD-4C42F154E746}|Security\\Security.csproj|solutionrelative:security\\registersecurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{159AE1E3-A2FF-4338-AD34-4918592CE8E2}|NWind.MVCPLS\\NWind.MVCPLS.csproj|C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\nwind.mvcpls\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{159AE1E3-A2FF-4338-AD34-4918592CE8E2}|NWind.MVCPLS\\NWind.MVCPLS.csproj|solutionrelative:nwind.mvcpls\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3E30C2C-E08C-40E3-A5DD-4C42F154E746}|Security\\Security.csproj|c:\\users\\owner\\documents\\github\\distribuidas\\proyecto\\proyecto\\security\\rolsecurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3E30C2C-E08C-40E3-A5DD-4C42F154E746}|Security\\Security.csproj|solutionrelative:security\\rolsecurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3E30C2C-E08C-40E3-A5DD-4C42F154E746}|Security\\Security.csproj|c:\\users\\owner\\documents\\github\\distribuidas\\proyecto\\proyecto\\security\\tokensecurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3E30C2C-E08C-40E3-A5DD-4C42F154E746}|Security\\Security.csproj|solutionrelative:security\\tokensecurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{159AE1E3-A2FF-4338-AD34-4918592CE8E2}|NWind.MVCPLS\\NWind.MVCPLS.csproj|C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\nwind.mvcpls\\content\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{159AE1E3-A2FF-4338-AD34-4918592CE8E2}|NWind.MVCPLS\\NWind.MVCPLS.csproj|solutionrelative:nwind.mvcpls\\content\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{159AE1E3-A2FF-4338-AD34-4918592CE8E2}|NWind.MVCPLS\\NWind.MVCPLS.csproj|c:\\users\\owner\\documents\\github\\distribuidas\\proyecto\\proyecto\\nwind.mvcpls\\views\\home\\createuserview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{159AE1E3-A2FF-4338-AD34-4918592CE8E2}|NWind.MVCPLS\\NWind.MVCPLS.csproj|solutionrelative:nwind.mvcpls\\views\\home\\createuserview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,8 +42,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 339,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditorView.cshtml",
+              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\NWind.MVCPLS\\Views\\Home\\EditorView.cshtml",
+              "RelativeDocumentMoniker": "NWind.MVCPLS\\Views\\Home\\EditorView.cshtml",
+              "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\NWind.MVCPLS\\Views\\Home\\EditorView.cshtml",
+              "RelativeToolTip": "NWind.MVCPLS\\Views\\Home\\EditorView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T16:08:48.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\NWind.MVCPLS\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "NWind.MVCPLS\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\NWind.MVCPLS\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "NWind.MVCPLS\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T15:54:26.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateView.cshtml",
+              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\NWind.MVCPLS\\Views\\Home\\UpdateView.cshtml",
+              "RelativeDocumentMoniker": "NWind.MVCPLS\\Views\\Home\\UpdateView.cshtml",
+              "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\NWind.MVCPLS\\Views\\Home\\UpdateView.cshtml",
+              "RelativeToolTip": "NWind.MVCPLS\\Views\\Home\\UpdateView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T14:57:53.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegisterSecurity.cs",
+              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\Security\\RegisterSecurity.cs",
+              "RelativeDocumentMoniker": "Security\\RegisterSecurity.cs",
+              "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\Security\\RegisterSecurity.cs",
+              "RelativeToolTip": "Security\\RegisterSecurity.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAUwIkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T14:46:07.351Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -60,126 +104,48 @@
               "RelativeDocumentMoniker": "NWind.MVCPLS\\Views\\Home\\AdminView.cshtml",
               "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\NWind.MVCPLS\\Views\\Home\\AdminView.cshtml",
               "RelativeToolTip": "NWind.MVCPLS\\Views\\Home\\AdminView.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABcAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T16:36:19.577Z",
+              "WhenOpened": "2024-12-13T13:57:26.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Home.cshtml",
-              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\NWind.MVCPLS\\Views\\Home\\Home.cshtml",
-              "RelativeDocumentMoniker": "NWind.MVCPLS\\Views\\Home\\Home.cshtml",
-              "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\NWind.MVCPLS\\Views\\Home\\Home.cshtml",
-              "RelativeToolTip": "NWind.MVCPLS\\Views\\Home\\Home.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T16:33:15.862Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RegisterSecurity.cs",
-              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\Security\\RegisterSecurity.cs",
-              "RelativeDocumentMoniker": "Security\\RegisterSecurity.cs",
-              "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\Security\\RegisterSecurity.cs",
-              "RelativeToolTip": "Security\\RegisterSecurity.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAuwDMAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T02:12:43.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EditorView.cshtml",
-              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\NWind.MVCPLS\\Views\\Home\\EditorView.cshtml",
-              "RelativeDocumentMoniker": "NWind.MVCPLS\\Views\\Home\\EditorView.cshtml",
-              "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\NWind.MVCPLS\\Views\\Home\\EditorView.cshtml",
-              "RelativeToolTip": "NWind.MVCPLS\\Views\\Home\\EditorView.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-13T05:44:29.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\NWind.MVCPLS\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "NWind.MVCPLS\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\NWind.MVCPLS\\Controllers\\HomeController.cs",
               "RelativeToolTip": "NWind.MVCPLS\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAMwFUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAiwI8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T12:44:26.175Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ViewerView.cshtml",
-              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\NWind.MVCPLS\\Views\\Home\\ViewerView.cshtml",
-              "RelativeDocumentMoniker": "NWind.MVCPLS\\Views\\Home\\ViewerView.cshtml",
-              "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\NWind.MVCPLS\\Views\\Home\\ViewerView.cshtml",
-              "RelativeToolTip": "NWind.MVCPLS\\Views\\Home\\ViewerView.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T16:37:02.367Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AdminStyles.css",
-              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\NWind.MVCPLS\\Content\\AdminStyles.css",
-              "RelativeDocumentMoniker": "NWind.MVCPLS\\Content\\AdminStyles.css",
-              "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\NWind.MVCPLS\\Content\\AdminStyles.css",
-              "RelativeToolTip": "NWind.MVCPLS\\Content\\AdminStyles.css",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAcwCwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-13T06:01:43.096Z",
+              "DocumentIndex": 5,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\Service\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Service\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\Service\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Service\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T16:06:34.77Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "RolSecurity.cs",
-              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\Security\\RolSecurity.cs",
-              "RelativeDocumentMoniker": "Security\\RolSecurity.cs",
-              "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\Security\\RolSecurity.cs",
-              "RelativeToolTip": "Security\\RolSecurity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T00:41:58.233Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TokenSecurity.cs",
-              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\Security\\TokenSecurity.cs",
-              "RelativeDocumentMoniker": "Security\\TokenSecurity.cs",
-              "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\Security\\TokenSecurity.cs",
-              "RelativeToolTip": "Security\\TokenSecurity.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAmwA4AAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T04:07:08.227Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.css",
-              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\NWind.MVCPLS\\Content\\Index.css",
-              "RelativeDocumentMoniker": "NWind.MVCPLS\\Content\\Index.css",
-              "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\NWind.MVCPLS\\Content\\Index.css",
-              "RelativeToolTip": "NWind.MVCPLS\\Content\\Index.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-12T13:21:15.103Z",
+              "Title": "CreateUserView.cshtml",
+              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\NWind.MVCPLS\\Views\\Home\\CreateUserView.cshtml",
+              "RelativeDocumentMoniker": "NWind.MVCPLS\\Views\\Home\\CreateUserView.cshtml",
+              "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\distribuidas\\Proyecto\\Proyecto\\NWind.MVCPLS\\Views\\Home\\CreateUserView.cshtml",
+              "RelativeToolTip": "NWind.MVCPLS\\Views\\Home\\CreateUserView.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T14:16:10.833Z",
               "EditorCaption": ""
             }
           ]
