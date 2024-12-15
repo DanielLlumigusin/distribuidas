@@ -135,24 +135,26 @@ namespace Security
                     UpdatedAt = DateTime.Now
                 };
 
-                usuarioLogic.EditUsuario(newUsuario); 
-
-                // Obtener ID del usuario editado
-                var userId = usuarioLogic.FilterUsuario(newUsuario.Username);
-
-                // Crear registro de auditoría
-                Auditoria newAuditoria = new Auditoria
+                if (usuarioLogic.EditUsuario(newUsuario))
                 {
-                    UserId = userId.Id,
-                    EventType = "AccountActivation",
-                    EventDescription = "Usuario editado exitosamente.",
-                    IpAddress = GetLocalIPAddress(), 
-                    EventTime = DateTime.Now
-                };
+                
+                    // Obtener ID del usuario editado
+                    var userId = usuarioLogic.FilterUsuario(newUsuario.Username);
 
-                proxyAuditoria.CreateAuditoria(newAuditoria); 
+                    // Crear registro de auditoría
+                    Auditoria newAuditoria = new Auditoria
+                    {
+                        UserId = userId.Id,
+                        EventType = "AccountActivation",
+                        EventDescription = "Usuario editado exitosamente.",
+                        IpAddress = GetLocalIPAddress(), 
+                        EventTime = DateTime.Now
+                    };
 
-                result = true;
+                    proxyAuditoria.CreateAuditoria(newAuditoria); 
+
+                    result = true;
+                }
             }
             catch (Exception ex)
             {

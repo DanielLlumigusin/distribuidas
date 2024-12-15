@@ -49,17 +49,21 @@ namespace BILL
         public bool EditUsuario(Usuario usuario)
         {
             bool res = false;
-            using(var r = RepositoryFactory.CreateRepository())
-            {
-                Usuario temp = r.Retrieve<Usuario>
-                    (u => u.Id == usuario.Id);
-                if(temp == null)
-                {
+            using (var r = RepositoryFactory.CreateRepository())
+            {                
+                Usuario temp = r.Retrieve<Usuario>(u => u.Id == usuario.Id);
+                if (temp != null)
+                {                   
                     res = r.Update(usuario);
+                }
+                else
+                {                    
+                    Console.WriteLine("El usuario no existe");
                 }
             }
             return res;
         }
+
 
         public Usuario FilterUsuario(string username)
         {
