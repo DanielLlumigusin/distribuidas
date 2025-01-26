@@ -34,6 +34,27 @@
     gap: 10px;
 }
 
+.message-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Espacio entre el nombre y el mensaje */
+}
+
+.username {
+    font-size: 12px; /* Tamaño pequeño para el nombre de usuario */
+    font-weight: bold;
+    color: #f8f9fa; /* Color claro para el nombre de usuario */
+    margin-bottom: 3px; /* Espacio pequeño entre el nombre y el mensaje */
+}
+
+.my-username {
+    text-align: right; /* Alineación a la derecha para el usuario actual */
+}
+
+.their-username {
+    text-align: left; /* Alineación a la izquierda para otros usuarios */
+}
+
 .message {
     padding: 10px;
     border-radius: 8px;
@@ -71,7 +92,7 @@
 }
 
 .btn-return{
-    text-decoration: none;;
+    text-decoration: none;
 }
 
 .btn-send, .btn-return{

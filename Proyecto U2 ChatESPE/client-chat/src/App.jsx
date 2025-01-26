@@ -3,6 +3,7 @@ import './App.css';
 import LoginPage from "./Screen/Login/LoginPage.jsx";
 import ChatPage from './Screen/Chat/ChatPage.jsx';
 import RoomPage from './Screen/Room/RoomPage.jsx';
+import RoomGeneralPage from './Screen/RoomGeneral/RoomGeneralPage.jsx';
 
 function App() {
   const isAuthenticated = sessionStorage.getItem("user");
@@ -21,6 +22,10 @@ function App() {
         <Route 
           path='/room' 
           element={isAuthenticated ? <RoomPage /> : <Navigate to="/" />}
+        />
+        <Route 
+          path='/room-general' 
+          element={isAuthenticated ? <RoomGeneralPage /> : <Navigate to="/" />}
         />
       </Routes>
     </BrowserRouter>

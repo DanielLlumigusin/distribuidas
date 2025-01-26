@@ -2,13 +2,13 @@ import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { connectStomp, disconnectStomp, sendMessageStomp, handleGetMessage } from "./RoomLogic";
 import "./RoomPage.css";
+
 const RoomPage = () => {
     const location = useLocation();
     const [idUser, setIdUser] = useState(null);
     const [destination_user_id, setDestinationUser] = useState(null);
     const [messages, setMessages] = useState([]);
     const [newMessage, setNewMessage] = useState("");
-    const [loading, setLoading] = useState(true);
 
     // Configurar IDs de usuario al cargar el componente
     useEffect(() => {
@@ -20,10 +20,8 @@ const RoomPage = () => {
     useEffect(() => {
         if (idUser && destination_user_id) {
             const fetchMessages = async () => {
-                setLoading(true);
                 const fetchedMessages = await handleGetMessage(idUser, destination_user_id);
                 setMessages(fetchedMessages);
-                setLoading(false);
             };
 
             fetchMessages();
@@ -33,7 +31,14 @@ const RoomPage = () => {
                 setMessages((prevMessages) => [...prevMessages, newMessage]);
             });
 
+            // Actualizar mensajes cada segundo
+            const interval = setInterval(() => {
+                fetchMessages();
+            }, 1000); // Cada 1 segundo
+
+            // Limpiar el intervalo al desmontar el componente
             return () => {
+                clearInterval(interval);
                 disconnectStomp(idUser, destination_user_id); // Desconectar al salir del componente
             };
         }
@@ -75,9 +80,7 @@ const RoomPage = () => {
             <p className="chat-info">Este es el chat privado con el usuario ID: {destination_user_id}</p>
 
             <div className="chat-box">
-                {loading ? (
-                    <p>Cargando mensajes...</p>
-                ) : (
+                {(
                     messages.map((message, index) => (
                         <div
                             key={index}
