@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { handleSubmitLogin, } from './LoginLogic.js';
+import { handleSubmitLogin, handleSubmitRegister } from './LoginLogic.js';
 import './LoginPage.css';
 
 const LoginPage = () => {
@@ -50,7 +50,7 @@ const LoginPage = () => {
                         <h2>Registro</h2>
                         <form onSubmit={(e) => {
                             e.preventDefault();
-                            //handleSubmitRegister(registerUsername, registerPassword);
+                            handleSubmitRegister(registerUsername, registerPassword);
                         }}>
                             <div className="form-group">
                                 <label htmlFor="registerUsername">Usuario:</label>
